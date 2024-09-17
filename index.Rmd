@@ -14,6 +14,16 @@ library(readxl)
 fileName="LIED_6.6.xlsx"
 dataExcel=read_excel(fileName)
 head(dataExcel)
+
+fileNameTwo="Freedom_House_Data_from_2003_to_2020.xlsx"
+dataExcelTwo=read_excel(fileNameTwo)
+head(dataExcelTwo)
+
+fileNameThree="V_Dem_Core.csv"
+dataExcelThree=read.csv(fileNameThree)
+head(dataExcelThree)
+
+
 ```
 
 Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
