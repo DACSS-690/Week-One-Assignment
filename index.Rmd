@@ -11,18 +11,14 @@ Try executing this chunk by clicking the *Run* button within the chunk or by pla
 
 ```{r}
 library(readxl)
-fileName="LIED_6.6.xlsx"
-dataExcel=read_excel(fileName)
-head(dataExcel)
-
-fileNameTwo="Freedom_House_Data_from_2003_to_2020.xlsx"
-dataExcelTwo=read_excel(fileNameTwo)
-head(dataExcelTwo)
-
-fileNameThree="V_Dem_Core.csv"
-dataExcelThree=read.csv(fileNameThree)
-head(dataExcelThree)
-
+#file.choose() found the directory path for each file
+LIED <- read_excel("/Users/dftorres/Documents/GitHub/DPP690/Week-One-Assignment/Data/LIED_6.6.xlsx")
+V_Dem <- read.csv("/Users/dftorres/Documents/GitHub/DPP690/Week-One-Assignment/Data/V_Dem_CORE.csv")
+Freedom_House <- read_excel("/Users/dftorres/Documents/GitHub/DPP690/Week-One-Assignment/Data/Freedom_House_Data_from_2003_to_2020.xlsx", 2)
+Freedom_House_2 <- read_excel("/Users/dftorres/Documents/GitHub/DPP690/Week-One-Assignment/Data/Freedom_House_Data_from_2003_to_2020.xlsx", 3)
+head(LIED)
+head(V_Dem)
+head(Freedom_House)
 
 ```
 
