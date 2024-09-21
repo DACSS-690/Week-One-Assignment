@@ -1,7 +1,7 @@
 # Week-One-Assignment
 
-- Democratic Backsliding Data 
-- This repo has three datasets--Freedom House, V-Dem and LIED which measures a country's level of democracy. Freedom House is a non-governmental organization with some federal funding from the United States government. Researchers at Gothenburg University in Sweden produce the V-Dem dataset. And Professor Skaaning, Svend-Erik at Aarhus University, in Denmark, is the lead researcher in creating the LIED dataset.     
+- Title: Democratic Backsliding Data 
+- This repo has three datasets--Freedom House, V-Dem and LIED which measures a country's level of democracy. Freedom House is a non-governmental organization with some federal funding from the United States government. Researchers at Gothenburg University in Sweden produce the V-Dem dataset. Professor Skaaning, Svend-Erik at Aarhus University, in Denmark, is the lead researcher in creating the LIED dataset.     
 - Tell us where you got the data from (the link to the web page)
 -   Freedom House dataset: https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Ffreedomhouse.org%2Fsites%2Fdefault%2Ffiles%2F2020-02%2F2020_Aggregate_Category_and_Subcategory_Scores_FIW_2003-2020.xlsx&wdOrigin=BROWSELINK
 -   V-Dem Dataset Country-Year V-Dem Core https://v-dem.net/data/the-v-dem-dataset/
